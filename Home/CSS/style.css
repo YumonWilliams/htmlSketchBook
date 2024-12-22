@@ -1,0 +1,45 @@
+
+
+body {
+    background-image: url('../Media/background2.png');
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif
+};
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 60%; 
+    height: auto; 
+};
+
+ img {
+    max-width: 200%;
+    height: auto;
+};
+ 
+@media (max-width: 768px) {
+    html, body {
+        display: block;
+        overflow: auto;
+        text-align: center;
+    };
+
+    .container {
+        width: 100%; 
+        height: auto; 
+        padding: 10px;
+    };
+
+    img {
+        max-width: 90%;
+    };
+}; 
+
